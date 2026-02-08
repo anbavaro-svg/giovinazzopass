@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Admin - GiovinazzoPass</title>
+</head>
+<body>
+  <h1>Dashboard Admin</h1>
+
+  <div id="login">
+    <input id="username" placeholder="Username" />
+    <input id="password" type="password" placeholder="Password" />
+    <button id="login-btn">Login</button>
+    <p id="login-msg"></p>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+    <h2>Statistiche Card</h2>
+    <pre id="totals"></pre>
+
+    <h2>Utilizzi per Sponsor</h2>
+    <pre id="per-sponsor"></pre>
+
+    <h2>Ultime scansioni</h2>
+    <pre id="scans"></pre>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

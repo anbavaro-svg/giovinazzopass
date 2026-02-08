@@ -1,0 +1,14 @@
+name = "GiovinazzoPass"
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+[vars]
+JWT_SECRET = "CAMBIA_QUESTA_STRINGA_LUNGA_E_SEGRETA"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "giovinazzo_pass_db"
+database_id = "REPLACE_WITH_D1_ID"
+
+[site]
+bucket = "./public"
