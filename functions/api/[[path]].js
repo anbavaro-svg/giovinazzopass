@@ -1,1 +1,2 @@
-export { default } from "../../worker.js";
+import worker from "../../worker.js";
+export default worker;
